@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct Usuario : Codable {
+    var role: String
+    var estado: Bool
+    var _id: String
+    var telefono: String
+    var pin: String
+    var fecha: String
+ 
+}

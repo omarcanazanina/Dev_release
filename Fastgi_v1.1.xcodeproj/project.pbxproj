@@ -3,19 +3,58 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		925131892549A9FD0098D00D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925131882549A9FD0098D00D /* LoginView.swift */; };
+		9251318D2549AABE0098D00D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9251318C2549AABE0098D00D /* Login.swift */; };
+		925131922549AB390098D00D /* UsuarioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925131912549AB390098D00D /* UsuarioModel.swift */; };
+		925131952549AB560098D00D /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925131942549AB560098D00D /* ErrorModel.swift */; };
+		925131992549ABA60098D00D /* SmsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925131982549ABA60098D00D /* SmsResponse.swift */; };
+		9251319D2549ABF90098D00D /* AuthState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9251319C2549ABF90098D00D /* AuthState.swift */; };
+		925131A02549AC410098D00D /* BrokenRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9251319F2549AC410098D00D /* BrokenRulesView.swift */; };
+		925131A42549AC760098D00D /* BrokenRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925131A32549AC760098D00D /* BrokenRule.swift */; };
+		925131A82549ACC50098D00D /* ListAreaCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925131A72549ACC50098D00D /* ListAreaCodeView.swift */; };
+		925131AC2549ACE40098D00D /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925131AB2549ACE40098D00D /* Loader.swift */; };
+		925131B02549AD6E0098D00D /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925131AF2549AD6E0098D00D /* Styles.swift */; };
+		925131B32549ADBE0098D00D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925131B22549ADBE0098D00D /* LoginViewModel.swift */; };
+		925131B72549AE180098D00D /* ValidatedPropertyKit in Frameworks */ = {isa = PBXBuildFile; productRef = 925131B62549AE180098D00D /* ValidatedPropertyKit */; };
+		925131BB2549AE670098D00D /* Validation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925131BA2549AE670098D00D /* Validation+Extensions.swift */; };
+		925131BE2549AE890098D00D /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925131BD2549AE890098D00D /* Optional+Extensions.swift */; };
+		925131C12549AF400098D00D /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925131C02549AF400098D00D /* CodeView.swift */; };
+		925131C62549B0840098D00D /* NavigationRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925131C52549B0840098D00D /* NavigationRoot.swift */; };
+		925131C9254A53C50098D00D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925131C8254A53C50098D00D /* HomeView.swift */; };
+		925131CC254A53FA0098D00D /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925131CB254A53FA0098D00D /* TabsView.swift */; };
 		9269C4732549A7EE00116594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269C4722549A7EE00116594 /* AppDelegate.swift */; };
 		9269C4752549A7EE00116594 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269C4742549A7EE00116594 /* SceneDelegate.swift */; };
 		9269C4772549A7EE00116594 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269C4762549A7EE00116594 /* ContentView.swift */; };
 		9269C4792549A7F300116594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9269C4782549A7F300116594 /* Assets.xcassets */; };
 		9269C47C2549A7F300116594 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9269C47B2549A7F300116594 /* Preview Assets.xcassets */; };
 		9269C47F2549A7F300116594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9269C47D2549A7F300116594 /* LaunchScreen.storyboard */; };
+		A6EADCA92D4BD8314BA3ADFD /* Pods_Fastgi_v1_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D047FA4CD4C7BAF2D7FE02 /* Pods_Fastgi_v1_1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75D047FA4CD4C7BAF2D7FE02 /* Pods_Fastgi_v1_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fastgi_v1_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		925131882549A9FD0098D00D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9251318C2549AABE0098D00D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		925131912549AB390098D00D /* UsuarioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioModel.swift; sourceTree = "<group>"; };
+		925131942549AB560098D00D /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		925131982549ABA60098D00D /* SmsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsResponse.swift; sourceTree = "<group>"; };
+		9251319C2549ABF90098D00D /* AuthState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthState.swift; sourceTree = "<group>"; };
+		9251319F2549AC410098D00D /* BrokenRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenRulesView.swift; sourceTree = "<group>"; };
+		925131A32549AC760098D00D /* BrokenRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenRule.swift; sourceTree = "<group>"; };
+		925131A72549ACC50098D00D /* ListAreaCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAreaCodeView.swift; sourceTree = "<group>"; };
+		925131AB2549ACE40098D00D /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		925131AF2549AD6E0098D00D /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		925131B22549ADBE0098D00D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		925131BA2549AE670098D00D /* Validation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validation+Extensions.swift"; sourceTree = "<group>"; };
+		925131BD2549AE890098D00D /* Optional+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
+		925131C02549AF400098D00D /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		925131C52549B0840098D00D /* NavigationRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRoot.swift; sourceTree = "<group>"; };
+		925131C8254A53C50098D00D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		925131CB254A53FA0098D00D /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
 		9269C46F2549A7EE00116594 /* Fastgi_v1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fastgi_v1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9269C4722549A7EE00116594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9269C4742549A7EE00116594 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +63,8 @@
 		9269C47B2549A7F300116594 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9269C47E2549A7F300116594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9269C4802549A7F300116594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43B4AD4FB8B84B067985E14 /* Pods-Fastgi_v1.1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fastgi_v1.1.release.xcconfig"; path = "Target Support Files/Pods-Fastgi_v1.1/Pods-Fastgi_v1.1.release.xcconfig"; sourceTree = "<group>"; };
+		E8ACC7D22D4362D5C8884DA1 /* Pods-Fastgi_v1.1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fastgi_v1.1.debug.xcconfig"; path = "Target Support Files/Pods-Fastgi_v1.1/Pods-Fastgi_v1.1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +72,126 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6EADCA92D4BD8314BA3ADFD /* Pods_Fastgi_v1_1.framework in Frameworks */,
+				925131B72549AE180098D00D /* ValidatedPropertyKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76FDD776E2F4B034507445C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8ACC7D22D4362D5C8884DA1 /* Pods-Fastgi_v1.1.debug.xcconfig */,
+				E43B4AD4FB8B84B067985E14 /* Pods-Fastgi_v1.1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9251317F2549A9C80098D00D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				925131862549A9EB0098D00D /* Auth */,
+				925131C8254A53C50098D00D /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		925131812549A9D10098D00D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				925131912549AB390098D00D /* UsuarioModel.swift */,
+				925131942549AB560098D00D /* ErrorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		925131832549A9D90098D00D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				925131B22549ADBE0098D00D /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		925131862549A9EB0098D00D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				925131882549A9FD0098D00D /* LoginView.swift */,
+				9251319F2549AC410098D00D /* BrokenRulesView.swift */,
+				925131C02549AF400098D00D /* CodeView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		9251318B2549AAA80098D00D /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				9251318C2549AABE0098D00D /* Login.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		925131972549AB8B0098D00D /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				925131982549ABA60098D00D /* SmsResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		9251319B2549ABE20098D00D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9251319C2549ABF90098D00D /* AuthState.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		925131A62549AC9D0098D00D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				925131A72549ACC50098D00D /* ListAreaCodeView.swift */,
+				925131AB2549ACE40098D00D /* Loader.swift */,
+				925131CB254A53FA0098D00D /* TabsView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		925131AE2549AD0B0098D00D /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				925131AF2549AD6E0098D00D /* Styles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		925131B92549AE350098D00D /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				925131A32549AC760098D00D /* BrokenRule.swift */,
+				925131BA2549AE670098D00D /* Validation+Extensions.swift */,
+				925131BD2549AE890098D00D /* Optional+Extensions.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		925131C42549B0620098D00D /* NavigationRoot */ = {
+			isa = PBXGroup;
+			children = (
+				925131C52549B0840098D00D /* NavigationRoot.swift */,
+			);
+			path = NavigationRoot;
+			sourceTree = "<group>";
+		};
 		9269C4662549A7EE00116594 = {
 			isa = PBXGroup;
 			children = (
 				9269C4712549A7EE00116594 /* Fastgi_v1.1 */,
 				9269C4702549A7EE00116594 /* Products */,
+				76FDD776E2F4B034507445C9 /* Pods */,
+				A81A4320A644D905CC2E8A1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +206,16 @@
 		9269C4712549A7EE00116594 /* Fastgi_v1.1 */ = {
 			isa = PBXGroup;
 			children = (
+				925131C42549B0620098D00D /* NavigationRoot */,
+				9251319B2549ABE20098D00D /* Services */,
+				9251318B2549AAA80098D00D /* Api */,
+				925131832549A9D90098D00D /* ViewModel */,
+				925131812549A9D10098D00D /* Model */,
+				925131972549AB8B0098D00D /* Response */,
+				9251317F2549A9C80098D00D /* View */,
+				925131A62549AC9D0098D00D /* Components */,
+				925131AE2549AD0B0098D00D /* Styles */,
+				925131B92549AE350098D00D /* Validation */,
 				9269C4722549A7EE00116594 /* AppDelegate.swift */,
 				9269C4742549A7EE00116594 /* SceneDelegate.swift */,
 				9269C4762549A7EE00116594 /* ContentView.swift */,
@@ -75,6 +235,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A81A4320A644D905CC2E8A1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75D047FA4CD4C7BAF2D7FE02 /* Pods_Fastgi_v1_1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,15 +250,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9269C4832549A7F300116594 /* Build configuration list for PBXNativeTarget "Fastgi_v1.1" */;
 			buildPhases = (
+				551F4A3AFB2F6BF7724E6A23 /* [CP] Check Pods Manifest.lock */,
 				9269C46B2549A7EE00116594 /* Sources */,
 				9269C46C2549A7EE00116594 /* Frameworks */,
 				9269C46D2549A7EE00116594 /* Resources */,
+				534CF679B9AD40B2A1535B39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Fastgi_v1.1;
+			packageProductDependencies = (
+				925131B62549AE180098D00D /* ValidatedPropertyKit */,
+			);
 			productName = Fastgi_v1.1;
 			productReference = 9269C46F2549A7EE00116594 /* Fastgi_v1.1.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +291,9 @@
 				Base,
 			);
 			mainGroup = 9269C4662549A7EE00116594;
+			packageReferences = (
+				925131B52549AE180098D00D /* XCRemoteSwiftPackageReference "ValidatedPropertyKit" */,
+			);
 			productRefGroup = 9269C4702549A7EE00116594 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,13 +316,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		534CF679B9AD40B2A1535B39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fastgi_v1.1/Pods-Fastgi_v1.1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fastgi_v1.1/Pods-Fastgi_v1.1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fastgi_v1.1/Pods-Fastgi_v1.1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		551F4A3AFB2F6BF7724E6A23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fastgi_v1.1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9269C46B2549A7EE00116594 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925131952549AB560098D00D /* ErrorModel.swift in Sources */,
+				925131B02549AD6E0098D00D /* Styles.swift in Sources */,
+				925131A42549AC760098D00D /* BrokenRule.swift in Sources */,
+				9251319D2549ABF90098D00D /* AuthState.swift in Sources */,
 				9269C4732549A7EE00116594 /* AppDelegate.swift in Sources */,
+				9251318D2549AABE0098D00D /* Login.swift in Sources */,
 				9269C4752549A7EE00116594 /* SceneDelegate.swift in Sources */,
+				925131A02549AC410098D00D /* BrokenRulesView.swift in Sources */,
+				925131B32549ADBE0098D00D /* LoginViewModel.swift in Sources */,
+				925131C12549AF400098D00D /* CodeView.swift in Sources */,
+				925131892549A9FD0098D00D /* LoginView.swift in Sources */,
+				925131A82549ACC50098D00D /* ListAreaCodeView.swift in Sources */,
+				925131AC2549ACE40098D00D /* Loader.swift in Sources */,
+				925131C9254A53C50098D00D /* HomeView.swift in Sources */,
+				925131C62549B0840098D00D /* NavigationRoot.swift in Sources */,
+				925131CC254A53FA0098D00D /* TabsView.swift in Sources */,
+				925131BB2549AE670098D00D /* Validation+Extensions.swift in Sources */,
+				925131BE2549AE890098D00D /* Optional+Extensions.swift in Sources */,
+				925131922549AB390098D00D /* UsuarioModel.swift in Sources */,
+				925131992549ABA60098D00D /* SmsResponse.swift in Sources */,
 				9269C4772549A7EE00116594 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +519,7 @@
 		};
 		9269C4842549A7F300116594 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8ACC7D22D4362D5C8884DA1 /* Pods-Fastgi_v1.1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +541,7 @@
 		};
 		9269C4852549A7F300116594 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E43B4AD4FB8B84B067985E14 /* Pods-Fastgi_v1.1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -345,6 +583,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		925131B52549AE180098D00D /* XCRemoteSwiftPackageReference "ValidatedPropertyKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/ValidatedPropertyKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		925131B62549AE180098D00D /* ValidatedPropertyKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 925131B52549AE180098D00D /* XCRemoteSwiftPackageReference "ValidatedPropertyKit" */;
+			productName = ValidatedPropertyKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9269C4672549A7EE00116594 /* Project object */;
 }

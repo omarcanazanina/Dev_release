@@ -6,3 +6,20 @@
 //
 
 import Foundation
+
+struct ErrorR : Codable {
+    var name : String
+    var message: String
+}
+
+//error de token recarga
+struct ErrorRecarga : Codable{
+    var name: String
+    var message: String
+}
+
+//error de token UpadteUser
+struct ErrorUpdateUser : Codable{
+    var name: String
+    var message: String
+}

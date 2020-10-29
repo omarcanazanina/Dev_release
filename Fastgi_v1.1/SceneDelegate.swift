@@ -19,14 +19,26 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        let authState = AuthState()
+        let mainView = HomeView()
+        let loginView = LoginView()
 
         // Use a UIHostingController as window root view controller.
-        if let windowScene = scene as? UIWindowScene {
-            let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: contentView)
-            self.window = window
-            window.makeKeyAndVisible()
+        if authState.isAuth {
+            // Use a UIHostingController as window root view controller.
+            if let windowScene = scene as? UIWindowScene {
+                let window = UIWindow(windowScene: windowScene)
+                window.rootViewController = UIHostingController(rootView:mainView.environmentObject(authState))
+                self.window = window
+                window.makeKeyAndVisible()
+            }
+        }else{
+            if let windowScene = scene as? UIWindowScene {
+                let window = UIWindow(windowScene: windowScene)
+                window.rootViewController = UIHostingController(rootView:loginView.environmentObject(authState))
+                self.window = window
+                window.makeKeyAndVisible()
+            }
         }
     }
 

@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+import ValidatedPropertyKit
+
+extension Validation where Value == String {
+    static func required(errorMessage: String = "Is Empty") -> Validation {
+        return .init { value in
+            value.isEmpty  ? .failure(.init(message: errorMessage)) : .success(())
+        }
+    }
+}
